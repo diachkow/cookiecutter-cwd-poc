@@ -6,5 +6,5 @@ named using the `project_slug` variable.
 
 ## Render Context
 
-- `var1` value: `{{ cookiecutter.var1 }}`;
-- `var2` value: `{{ cookiecutter.var2 }}`.
+- `foo` value: `{{ cookiecutter.foo }}`;
+- `bar` value: `{{ cookiecutter.bar }}`.

@@ -1,5 +1,4 @@
 {
-    "project_slug": "tmp",
-    "var1": "var1value",
-    "var2": "var2value"
+    "foo": "baz",
+    "bar": "qux"
 }
