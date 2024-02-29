@@ -11,3 +11,6 @@ parent_directory = os.path.dirname(current_directory)
 # copytree copies all the contents from current and all nested directories
 # from source folder to a destination folder.
 shutil.copytree(current_directory, parent_directory, dirs_exist_ok=True)
+
+# After copying the files we can remove the source directory
+shutil.rmtree(current_directory)
